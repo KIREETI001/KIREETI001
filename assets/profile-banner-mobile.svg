@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">Kireeti mobile profile banner</title>
+  <desc id="desc">A compact editorial banner reading Kireeti, turning messy inputs into trustworthy decisions, with an evidence to system to action flow.</desc>
+
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ECE4D2" stroke-width="1" opacity="0.07" />
+    </pattern>
+    <clipPath id="frame">
+      <rect width="720" height="500" rx="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="720" height="500" fill="#0F0E0C" />
+    <rect width="720" height="500" fill="url(#grid)" />
+
+    <rect x="38" y="34" width="212" height="32" fill="#D8FF3D" />
+    <text x="54" y="56" fill="#0F0E0C" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">FIELD NOTES / 001</text>
+
+    <text x="38" y="166" fill="#F4EDDE" font-family="Georgia, Times New Roman, serif" font-size="92" font-weight="700">Kireeti</text>
+    <text x="43" y="210" fill="#D8FF3D" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.4">EVIDENCE-DRIVEN BUILDER</text>
+
+    <line x1="42" y1="242" x2="678" y2="242" stroke="#F4EDDE" stroke-width="1" opacity="0.35" />
+    <text x="42" y="282" fill="#F4EDDE" font-family="Segoe UI, Arial, sans-serif" font-size="25">Turning messy inputs into</text>
+    <text x="42" y="318" fill="#F4EDDE" font-family="Segoe UI, Arial, sans-serif" font-size="25">trustworthy decisions.</text>
+
+    <g transform="translate(42 355)">
+      <line x1="28" y1="30" x2="570" y2="30" stroke="#F4EDDE" stroke-width="2" opacity="0.3" />
+      <circle cx="28" cy="30" r="10" fill="#FF6B5F" />
+      <circle cx="288" cy="30" r="10" fill="#D8FF3D" />
+      <circle cx="570" cy="30" r="25" fill="#D8FF3D" />
+      <path d="M558 30 L568 40 L585 20" fill="none" stroke="#0F0E0C" stroke-width="5" />
+      <text x="0" y="72" fill="#A9A294" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="1.5">EVIDENCE</text>
+      <text x="257" y="72" fill="#A9A294" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="1.5">SYSTEM</text>
+      <text x="534" y="72" fill="#F4EDDE" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.5">ACTION</text>
+    </g>
+
+    <text x="42" y="472" fill="#A9A294" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="1.4">NTU · SINGAPORE · AI / DATA / PRODUCT</text>
+    <rect x="1" y="1" width="718" height="498" rx="17" fill="none" stroke="#F4EDDE" stroke-width="2" opacity="0.2" />
+  </g>
+</svg>
