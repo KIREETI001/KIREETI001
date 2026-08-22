@@ -1,63 +1,39 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile-banner-mobile.svg" />
-    <img src="./assets/profile-banner.svg" alt="Kireeti — turning messy inputs into trustworthy decisions" width="100%" />
+    <source media="(max-width: 600px)" srcset="./assets/profile-banner-v2-mobile.png" />
+    <img src="./assets/profile-banner-v2.png" alt="Kireeti — I build tools that make the next decision easier" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <strong>Product-minded engineering across applied AI, data, and decision systems.</strong><br />
-  <sub>NTU student in Singapore · building practical, testable products for real-world problems</sub>
+  <strong>Hi, I’m Kireeti—an NTU student in Singapore.</strong><br />
+  I turn messy information into tools people can inspect, test, and use.
 </p>
 
-<p align="center">
-  <a href="https://github.com/KIREETI001/HackOrg"><strong>Start with HackOrg →</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/KIREETI001?tab=repositories">Explore all repositories</a>
-</p>
+<p align="center"><a href="https://github.com/KIREETI001/HackOrg"><strong>See the flagship →</strong></a></p>
 
-## I like the messy part
+## What closes next—and is it worth applying for?
 
-Hi, I’m **Kireeti**. I enjoy the point where an ambiguous problem has to become a defensible product: the source data needs provenance, the model needs honest limits, and the interface needs to help someone act.
+### [HackOrg](https://github.com/KIREETI001/HackOrg)
 
-My work usually sits at the intersection of:
+<a href="https://github.com/KIREETI001/HackOrg"><img src="./assets/hackorg-dashboard.png" alt="HackOrg dashboard showing its deadline radar, filters, and opportunity cards" width="100%" /></a>
 
-- **Applied AI with boundaries** — domain-aware tools where traceability and human review matter.
-- **Data-to-decision systems** — models, pipelines, and dashboards that make the next step clearer.
-- **End-to-end product engineering** — taking an idea from data and backend logic through interface, tests, and release checks.
+*Authentic local capture using the repository’s committed 22 Aug 2026 data.*
 
-## Selected systems
+A deadline-first scanner for hackathons, fellowships, and accelerators. It turns a daily scan into a focused view of what is closing soon, with local bookmarks and a warning if the data stops updating.
 
-**01 · [HackOrg](https://github.com/KIREETI001/HackOrg)**<br />
-A deadline-first scanner for hackathons, fellowships, and accelerators. It combines a daily Python source sweep with a focused Next.js interface, local-first preferences, data-integrity checks, and clear stale-data warnings.<br />
-`Next.js` `Python` `GitHub Actions` `Node test runner`
+**Proof snapshot · 22 Aug 2026:** 319 records indexed · latest 12 scheduled scans passed<br />
+[Code](https://github.com/KIREETI001/HackOrg) · [Latest scan](https://github.com/KIREETI001/HackOrg/actions/workflows/daily-scan.yml) · [Dataset status](https://github.com/KIREETI001/HackOrg/blob/main/data/meta.json)
 
-**02 · [World Cup Oracle](https://github.com/KIREETI001/FIFA)**<br />
-A hybrid football forecasting engine that blends World Football Elo with a Dixon–Coles scoreline model. Its walk-forward backtest is designed to measure performance without leaking future results into the past.<br />
-`Python` `SciPy` `pandas` `pytest`
+## Two more decisions I’m exploring
 
-**03 · [NTU Academic & Career Co-Pilot](https://github.com/KIREETI001/NTU-EEE-Copilot)**<br />
-An unofficial, version-tracked planning prototype for NTU EEE students. Academic rules live in a provenance-aware YAML rulebook, with a tested FastAPI engine and a Next.js explorer built around confidence and human review.<br />
-`FastAPI` `Pydantic` `Next.js` `YAML`
+- **Can a student trust the rule?** [NTU Academic & Career Co-Pilot](https://github.com/KIREETI001/NTU-EEE-Copilot) is an unofficial EEE planning prototype with a versioned rulebook, source provenance, and confidence labels. [Main CI](https://github.com/KIREETI001/NTU-EEE-Copilot/actions/runs/27670899152) passed 50 tests, rulebook checks, and a Next.js build.
+- **Does the forecast survive honest testing?** [World Cup Oracle](https://github.com/KIREETI001/FIFA) combines World Football Elo with a Dixon–Coles scoreline model. Its walk-forward evaluation trains only on matches available before each prediction.
 
-**04 · [ALLY](https://github.com/KIREETI001/ALLY)**<br />
-A Singapore caregiver-coordination prototype that turns discharge documents into structured care workflows. The product emphasizes source quotes, human confirmation, privacy controls, and clear boundaries around medical advice.<br />
-`TypeScript` `Next.js` `Supabase` · [Live prototype ↗](https://ally-orcin.vercel.app)
+## Now
 
-## How I work
+I’m studying at NTU, maintaining HackOrg’s daily scan, and learning how to make planning and forecasting tools easier to verify.
 
-- **Evidence before hype.** I separate a polished prototype from validated claims and production readiness.
-- **Systems, not just screens.** I connect source data, model behaviour, API contracts, user flow, and release quality.
-- **Useful over flashy.** A feature earns its place when it reduces a real decision, handoff, or point of confusion.
+## Build with me
 
-## Working toolkit
-
-**Build** · `Python` `TypeScript` `React` `Next.js` `FastAPI` `Vite`<br />
-**Data & modelling** · `SQL` `pandas` `SciPy` `Jupyter` `Power BI`<br />
-**Quality & delivery** · `pytest` `Playwright` `GitHub Actions` `Vercel` `Supabase`
-
-## Elsewhere in the workshop
-
-I also explore [caregiver-support software](https://github.com/KIREETI001/CareSpark), [health-data modelling](https://github.com/KIREETI001/Lifeline), and [AR learning experiences](https://github.com/KIREETI001/Digestive-System-AR).
-
-<p align="center"><sub>Make the claim testable.<br />Make the next action obvious.</sub></p>
+Found a [stale listing](https://github.com/KIREETI001/HackOrg/issues), [changed academic rule](https://github.com/KIREETI001/NTU-EEE-Copilot/issues), or [modelling edge case](https://github.com/KIREETI001/FIFA/issues)? Open an issue with a source or reproducible example—that is the fastest way to help.
