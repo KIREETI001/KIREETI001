@@ -25,10 +25,40 @@ A deadline-first scanner for hackathons, fellowships, and accelerators. It turns
 **Proof snapshot · 22 Aug 2026:** 319 records indexed · latest 12 scheduled scans passed<br />
 [Code](https://github.com/KIREETI001/HackOrg) · [Latest scan](https://github.com/KIREETI001/HackOrg/actions/workflows/daily-scan.yml) · [Dataset status](https://github.com/KIREETI001/HackOrg/blob/main/data/meta.json)
 
-## Two more decisions I’m exploring
+## Project index
 
-- **Can a student trust the rule?** [NTU Academic & Career Co-Pilot](https://github.com/KIREETI001/NTU-EEE-Copilot) is an unofficial EEE planning prototype with a versioned rulebook, source provenance, and confidence labels. [Main CI](https://github.com/KIREETI001/NTU-EEE-Copilot/actions/runs/27670899152) passed 50 tests, rulebook checks, and a Next.js build.
-- **Does the forecast survive honest testing?** [World Cup Oracle](https://github.com/KIREETI001/FIFA) combines World Football Elo with a Dixon–Coles scoreline model. Its walk-forward evaluation trains only on matches available before each prediction.
+**Browse:** [Hackathons (4)](#hackathons) ·
+[School (2)](#school-projects) · [Personal (4)](#personal-projects)
+
+### Hackathons
+
+- **[PatchPal](https://github.com/KIREETI001/PatchPal)** —
+  Feedback-to-code prototype built in 24 hours for iNTUition 2025.
+- **[Lifeline](https://github.com/KIREETI001/Lifeline)** —
+  Datathon project comparing classifiers using fetal-monitoring data.
+- **[CareSpark](https://github.com/KIREETI001/CareSpark)** —
+  Singapore caregiver-support MVP for coordinating care after discharge.
+- **[SG UniNavigator](https://github.com/KIREETI001/Agent-Forge-Hacklings)** —
+  Agent-powered course comparison for students choosing among Singapore universities.
+
+### School projects
+
+- **[DigestAR](https://github.com/KIREETI001/Digestive-System-AR)** —
+  NTU E008 AR learning app for primary-school digestive science.
+- **[HG2051](https://github.com/KIREETI001/HG2051)** —
+  Classwork and learning notes from NTU’s HG2051 module.
+
+### Personal projects
+
+- **[HackOrg](https://github.com/KIREETI001/HackOrg)** —
+  Maintained deadline scanner for hackathons, fellowships, and accelerators;
+  featured above.
+- **[NTU Academic & Career Co-Pilot](https://github.com/KIREETI001/NTU-EEE-Copilot)** —
+  Source-linked EEE planning prototype with versioned rules.
+- **[World Cup Oracle](https://github.com/KIREETI001/FIFA)** —
+  Elo and Dixon–Coles forecasting with walk-forward evaluation.
+- **[ALLY](https://github.com/KIREETI001/ALLY)** —
+  Singapore caregiver coordination from discharge documents to shared tasks.
 
 ## Now
 
